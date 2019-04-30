@@ -1,0 +1,118 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+.ycm_extra_conf.py	../.ycm_extra_conf.py	1;"	kind:file	line:1
+CATKIN_MARKER_FILE	../devel/_setup_util.py	/^CATKIN_MARKER_FILE = '.catkin'$/;"	kind:variable	line:46
+CMAKE_PREFIX_PATH	../devel/_setup_util.py	/^        CMAKE_PREFIX_PATH = '\/home\/hans\/git\/shell\/ros\/catkin_ws\/devel;\/home\/hans\/ros\/catkin_ws\/devel;\/opt\/ros\/kinetic'.split(';')$/;"	kind:variable	line:265
+CMAKE_PREFIX_PATH	../devel/_setup_util.py	/^        CMAKE_PREFIX_PATH = os.pathsep.join(CMAKE_PREFIX_PATH)$/;"	kind:variable	line:270
+DirectoryOfThisScript	../.ycm_extra_conf.py	/^def DirectoryOfThisScript():$/;"	kind:function	line:38
+ENV_VAR_SUBFOLDERS	../devel/_setup_util.py	/^ENV_VAR_SUBFOLDERS = {$/;"	kind:variable	line:53
+FlagsForFile	../.ycm_extra_conf.py	/^def FlagsForFile( filename, **kwargs ):$/;"	kind:function	line:90
+GetCompilationInfoForFile	../.ycm_extra_conf.py	/^def GetCompilationInfoForFile( filename ):$/;"	kind:function	line:76
+IS_DARWIN	../devel/_setup_util.py	/^IS_DARWIN = (system == 'Darwin')$/;"	kind:variable	line:49
+IS_WINDOWS	../devel/_setup_util.py	/^IS_WINDOWS = (system == 'Windows')$/;"	kind:variable	line:50
+IsHeaderFile	../.ycm_extra_conf.py	/^def IsHeaderFile( filename ):$/;"	kind:function	line:71
+MakeRelativePathsInFlagsAbsolute	../.ycm_extra_conf.py	/^def MakeRelativePathsInFlagsAbsolute( flags, working_directory ):$/;"	kind:function	line:42
+SOURCE_EXTENSIONS	../.ycm_extra_conf.py	/^SOURCE_EXTENSIONS = [ '.cpp', '.cxx', '.cc', '.c' ]$/;"	kind:variable	line:36
+WordCount	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^class WordCount(object):$/;"	kind:class	line:224
+WordCountRequest	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^class WordCountRequest(genpy.Message):$/;"	kind:class	line:9
+WordCountResponse	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^class WordCountResponse(genpy.Message):$/;"	kind:class	line:131
+_WordCount.py	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	1;"	kind:file	line:1
+__init__	../devel/lib/python2.7/dist-packages/my_awesomme_code/msg/_complex.py	/^  def __init__(self, *args, **kwds):$/;"	kind:function	line:20
+__init__	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  def __init__(self, *args, **kwds):$/;"	kind:function	line:141
+__init__	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  def __init__(self, *args, **kwds):$/;"	kind:function	line:18
+__init__.py	../devel/lib/python2.7/dist-packages/my_awesomme_code/__init__.py	1;"	kind:file	line:1
+__init__.py	../devel/lib/python2.7/dist-packages/my_awesomme_code/msg/__init__.py	1;"	kind:file	line:1
+__init__.py	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/__init__.py	1;"	kind:file	line:1
+__slots__	../devel/lib/python2.7/dist-packages/my_awesomme_code/msg/_complex.py	/^  __slots__ = ['real','imaginary']$/;"	kind:variable	line:17
+__slots__	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  __slots__ = ['count']$/;"	kind:variable	line:138
+__slots__	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  __slots__ = ['words']$/;"	kind:variable	line:15
+_complex.py	../devel/lib/python2.7/dist-packages/my_awesomme_code/msg/_complex.py	1;"	kind:file	line:1
+_get_struct_2f	../devel/lib/python2.7/dist-packages/my_awesomme_code/msg/_complex.py	/^def _get_struct_2f():$/;"	kind:function	line:111
+_get_struct_I	../devel/lib/python2.7/dist-packages/my_awesomme_code/msg/_complex.py	/^def _get_struct_I():$/;"	kind:function	line:107
+_get_struct_I	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^def _get_struct_I():$/;"	kind:function	line:120
+_get_struct_I	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^def _get_struct_I():$/;"	kind:function	line:221
+_get_types	../devel/lib/python2.7/dist-packages/my_awesomme_code/msg/_complex.py	/^  def _get_types(self):$/;"	kind:function	line:45
+_get_types	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  def _get_types(self):$/;"	kind:function	line:163
+_get_types	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  def _get_types(self):$/;"	kind:function	line:40
+_get_workspaces	../devel/_setup_util.py	/^def _get_workspaces(environ, include_fuerte=False, include_non_existing=False):$/;"	kind:function	line:114
+_has_header	../devel/lib/python2.7/dist-packages/my_awesomme_code/msg/_complex.py	/^  _has_header = False #flag to mark the presence of a Header object$/;"	kind:variable	line:12
+_has_header	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  _has_header = False #flag to mark the presence of a Header object$/;"	kind:variable	line:12
+_has_header	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  _has_header = False #flag to mark the presence of a Header object$/;"	kind:variable	line:134
+_md5sum	../devel/lib/python2.7/dist-packages/my_awesomme_code/msg/_complex.py	/^  _md5sum = "54da470dccf15d60bd273ab751e1c0a1"$/;"	kind:variable	line:10
+_md5sum	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  _md5sum = "6f897d3845272d18053a750c1cfb862a"$/;"	kind:variable	line:10
+_md5sum	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  _md5sum = "ac8b22eb02c1f433e0a55ee9aac59a18"$/;"	kind:variable	line:132
+_md5sum	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  _md5sum = '58903d21a3264f3408d79ba79e9f7c7e'$/;"	kind:variable	line:226
+_parse_arguments	../devel/_setup_util.py	/^def _parse_arguments(args=None):$/;"	kind:function	line:250
+_prefix_env_variable	../devel/_setup_util.py	/^def _prefix_env_variable(environ, name, paths, subfolders):$/;"	kind:function	line:149
+_request_class	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  _request_class  = WordCountRequest$/;"	kind:variable	line:227
+_response_class	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  _response_class = WordCountResponse$/;"	kind:variable	line:228
+_rollback_env_variable	../devel/_setup_util.py	/^def _rollback_env_variable(environ, name, subfolders):$/;"	kind:function	line:83
+_setup_util.py	../devel/_setup_util.py	1;"	kind:file	line:1
+_slot_types	../devel/lib/python2.7/dist-packages/my_awesomme_code/msg/_complex.py	/^  _slot_types = ['float32','float32']$/;"	kind:variable	line:18
+_slot_types	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  _slot_types = ['string']$/;"	kind:variable	line:16
+_slot_types	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  _slot_types = ['uint32']$/;"	kind:variable	line:139
+_struct_2f	../devel/lib/python2.7/dist-packages/my_awesomme_code/msg/_complex.py	/^_struct_2f = None$/;"	kind:variable	line:110
+_struct_I	../devel/lib/python2.7/dist-packages/my_awesomme_code/msg/_complex.py	/^_struct_I = genpy.struct_I$/;"	kind:variable	line:106
+_struct_I	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^_struct_I = genpy.struct_I$/;"	kind:variable	line:119
+_struct_I	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^_struct_I = genpy.struct_I$/;"	kind:variable	line:220
+_type	../devel/lib/python2.7/dist-packages/my_awesomme_code/msg/_complex.py	/^  _type = "my_awesomme_code\/complex"$/;"	kind:variable	line:11
+_type	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  _type          = 'my_awesomme_code\/WordCount'$/;"	kind:variable	line:225
+_type	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  _type = "my_awesomme_code\/WordCountRequest"$/;"	kind:variable	line:11
+_type	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  _type = "my_awesomme_code\/WordCountResponse"$/;"	kind:variable	line:133
+args	../devel/_setup_util.py	/^            args = _parse_arguments()$/;"	kind:variable	line:259
+assignment	../devel/_setup_util.py	/^def assignment(key, value):$/;"	kind:function	line:175
+base_path	../devel/_setup_util.py	/^        base_path = os.path.dirname(__file__)$/;"	kind:variable	line:267
+callback	../src/my_awesomme_code/script/message_subscriber.py	/^def callback(msg):$/;"	kind:function	line:7
+callback	../src/my_awesomme_code/script/topic_subscriber.py	/^def callback(msg):$/;"	kind:function	line:6
+comment	../devel/_setup_util.py	/^def comment(msg):$/;"	kind:function	line:182
+compilation_database_folder	../.ycm_extra_conf.py	/^compilation_database_folder = ''$/;"	kind:variable	line:29
+complex	../devel/lib/python2.7/dist-packages/my_awesomme_code/msg/_complex.py	/^class complex(genpy.Message):$/;"	kind:class	line:9
+count	../src/my_awesomme_code/script/message_publisher.py	/^count = 0$/;"	kind:variable	line:16
+count	../src/my_awesomme_code/script/topic_publisher.py	/^count = 0$/;"	kind:variable	line:15
+count_words	../src/my_awesomme_code/script/service_server.py	/^def count_words(request):$/;"	kind:function	line:7
+database	../.ycm_extra_conf.py	/^  database = None$/;"	kind:variable	line:34
+database	../.ycm_extra_conf.py	/^  database = ycm_core.CompilationDatabase( compilation_database_folder )$/;"	kind:variable	line:32
+deserialize	../devel/lib/python2.7/dist-packages/my_awesomme_code/msg/_complex.py	/^  def deserialize(self, str):$/;"	kind:function	line:62
+deserialize	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  def deserialize(self, str):$/;"	kind:function	line:179
+deserialize	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  def deserialize(self, str):$/;"	kind:function	line:61
+deserialize_numpy	../devel/lib/python2.7/dist-packages/my_awesomme_code/msg/_complex.py	/^  def deserialize_numpy(self, str, numpy):$/;"	kind:function	line:90
+deserialize_numpy	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  def deserialize_numpy(self, str, numpy):$/;"	kind:function	line:205
+deserialize_numpy	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  def deserialize_numpy(self, str, numpy):$/;"	kind:function	line:98
+environ	../devel/_setup_util.py	/^        environ = dict(os.environ)$/;"	kind:variable	line:272
+find_env_hooks	../devel/_setup_util.py	/^def find_env_hooks(environ, cmake_prefix_path):$/;"	kind:function	line:198
+flags	../.ycm_extra_conf.py	/^flags = [$/;"	kind:variable	line:6
+lines	../devel/_setup_util.py	/^        lines = []$/;"	kind:variable	line:273
+message_publisher.py	../src/my_awesomme_code/script/message_publisher.py	1;"	kind:file	line:1
+message_subscriber.py	../src/my_awesomme_code/script/message_subscriber.py	1;"	kind:file	line:1
+msg	../src/my_awesomme_code/script/message_publisher.py	/^    msg = complex()$/;"	kind:variable	line:18
+prepend	../devel/_setup_util.py	/^def prepend(environ, key, prefix):$/;"	kind:function	line:189
+prepend_env_variables	../devel/_setup_util.py	/^def prepend_env_variables(environ, env_var_subfolders, workspaces):$/;"	kind:function	line:129
+pub	../src/my_awesomme_code/script/message_publisher.py	/^pub = rospy.Publisher('complex',complex)$/;"	kind:variable	line:12
+pub	../src/my_awesomme_code/script/topic_publisher.py	/^pub = rospy.Publisher('counter',Int32)$/;"	kind:variable	line:11
+python3	../devel/lib/python2.7/dist-packages/my_awesomme_code/msg/_complex.py	/^python3 = True if sys.hexversion > 0x03000000 else False$/;"	kind:variable	line:4
+python3	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^python3 = True if sys.hexversion > 0x03000000 else False$/;"	kind:variable	line:126
+python3	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^python3 = True if sys.hexversion > 0x03000000 else False$/;"	kind:variable	line:4
+rate	../src/my_awesomme_code/script/message_publisher.py	/^rate = rospy.Rate(2)$/;"	kind:variable	line:14
+rate	../src/my_awesomme_code/script/topic_publisher.py	/^rate = rospy.Rate(2)$/;"	kind:variable	line:13
+rollback_env_variables	../devel/_setup_util.py	/^def rollback_env_variables(environ, env_var_subfolders):$/;"	kind:function	line:62
+serialize	../devel/lib/python2.7/dist-packages/my_awesomme_code/msg/_complex.py	/^  def serialize(self, buff):$/;"	kind:function	line:51
+serialize	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  def serialize(self, buff):$/;"	kind:function	line:169
+serialize	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  def serialize(self, buff):$/;"	kind:function	line:46
+serialize_numpy	../devel/lib/python2.7/dist-packages/my_awesomme_code/msg/_complex.py	/^  def serialize_numpy(self, buff, numpy):$/;"	kind:function	line:78
+serialize_numpy	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  def serialize_numpy(self, buff, numpy):$/;"	kind:function	line:194
+serialize_numpy	../devel/lib/python2.7/dist-packages/my_awesomme_code/srv/_WordCount.py	/^  def serialize_numpy(self, buff, numpy):$/;"	kind:function	line:82
+service	../src/my_awesomme_code/script/service_server.py	/^service = rospy.Service('word_count',WordCount,count_words)$/;"	kind:variable	line:12
+service_client.py	../src/my_awesomme_code/script/service_client.py	1;"	kind:file	line:1
+service_server.py	../src/my_awesomme_code/script/service_server.py	1;"	kind:file	line:1
+sub	../src/my_awesomme_code/script/message_subscriber.py	/^sub = rospy.Subscriber('complex',complex,callback)$/;"	kind:variable	line:14
+sub	../src/my_awesomme_code/script/topic_subscriber.py	/^sub = rospy.Subscriber('counter',Int32,callback)$/;"	kind:variable	line:11
+system	../devel/_setup_util.py	/^system = platform.system()$/;"	kind:variable	line:48
+topic_publisher.py	../src/my_awesomme_code/script/topic_publisher.py	1;"	kind:file	line:1
+topic_subscriber.py	../src/my_awesomme_code/script/topic_subscriber.py	1;"	kind:file	line:1
+word_count	../src/my_awesomme_code/script/service_client.py	/^word_count = word_counter(words)$/;"	kind:variable	line:18
+word_counter	../src/my_awesomme_code/script/service_client.py	/^word_counter = rospy.ServiceProxy('word_count',WordCount)$/;"	kind:variable	line:14
+words	../src/my_awesomme_code/script/service_client.py	/^words = ' '.join(sys.argv[1:])$/;"	kind:variable	line:16

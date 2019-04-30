@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/hans/git/shell/ros/cpp_catkin_ws/devel/setup.sh
