@@ -107,7 +107,7 @@ catkin_package(
 
 #  INCLUDE_DIRS include
 #  LIBRARIES learning_communication
-    CATKIN_DEPENDS roscpp rospy std_msgs message_runtime
+   CATKIN_DEPENDS roscpp rospy std_msgs message_runtime
 #  DEPENDS system_lib
 )
 
@@ -139,16 +139,20 @@ include_directories(
 
 add_executable(talker src/talker.cpp)
 #add_dependencies(talker  ${PROJECT_NAME}_generate_messages_cpp)
-target_link_libraries(talker 
-    ${catkin_LIBRARIES}
- )
+target_link_libraries(talker ${catkin_LIBRARIES})
 
 add_executable(listener src/listener.cpp)
 #add_dependencies(talker  ${PROJECT_NAME}_generate_messages_cpp)
-target_link_libraries(listener 
-    ${catkin_LIBRARIES}
-    )
+target_link_libraries(listener ${catkin_LIBRARIES})
 
+add_executable(server src/server.cpp)
+#add_dependencies(talker  ${PROJECT_NAME}_generate_messages_cpp)
+target_link_libraries(server ${catkin_LIBRARIES})
+
+
+add_executable(client src/client.cpp) 
+#add_dependencies(talker  ${PROJECT_NAME}_generate_messages_cpp)
+target_link_libraries(client ${catkin_LIBRARIES})
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -157,7 +161,9 @@ target_link_libraries(listener
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-# add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+
+add_dependencies(client $(PROJECT_NAME)_gencpp)
+add_dependencies(server $(PROJECT_NAME)_gencpp)
 
 ## Specify libraries to link a library or executable target against
 # target_link_libraries(${PROJECT_NAME}_node

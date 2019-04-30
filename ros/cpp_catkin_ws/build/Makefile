@@ -283,6 +283,32 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named client
+
+# Build rule for target.
+client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 client
+.PHONY : client
+
+# fast build rule for target.
+client/fast:
+	$(MAKE) -f learning_communication/CMakeFiles/client.dir/build.make learning_communication/CMakeFiles/client.dir/build
+.PHONY : client/fast
+
+#=============================================================================
+# Target rules for targets named server
+
+# Build rule for target.
+server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 server
+.PHONY : server
+
+# fast build rule for target.
+server/fast:
+	$(MAKE) -f learning_communication/CMakeFiles/server.dir/build.make learning_communication/CMakeFiles/server.dir/build
+.PHONY : server/fast
+
+#=============================================================================
 # Target rules for targets named listener
 
 # Build rule for target.
@@ -694,6 +720,8 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... client"
+	@echo "... server"
 	@echo "... listener"
 	@echo "... talker"
 	@echo "... learning_communication_gennodejs"

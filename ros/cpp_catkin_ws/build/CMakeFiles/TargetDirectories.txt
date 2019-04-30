@@ -30,10 +30,12 @@
 /home/hans/git/shell/ros/cpp_catkin_ws/build/gtest/gtest/CMakeFiles/install/local.dir
 /home/hans/git/shell/ros/cpp_catkin_ws/build/learning_communication/CMakeFiles/list_install_components.dir
 /home/hans/git/shell/ros/cpp_catkin_ws/build/learning_communication/CMakeFiles/install.dir
-/home/hans/git/shell/ros/cpp_catkin_ws/build/learning_communication/CMakeFiles/rebuild_cache.dir
 /home/hans/git/shell/ros/cpp_catkin_ws/build/learning_communication/CMakeFiles/edit_cache.dir
 /home/hans/git/shell/ros/cpp_catkin_ws/build/learning_communication/CMakeFiles/test.dir
 /home/hans/git/shell/ros/cpp_catkin_ws/build/learning_communication/CMakeFiles/install/local.dir
+/home/hans/git/shell/ros/cpp_catkin_ws/build/learning_communication/CMakeFiles/rebuild_cache.dir
+/home/hans/git/shell/ros/cpp_catkin_ws/build/learning_communication/CMakeFiles/client.dir
+/home/hans/git/shell/ros/cpp_catkin_ws/build/learning_communication/CMakeFiles/server.dir
 /home/hans/git/shell/ros/cpp_catkin_ws/build/learning_communication/CMakeFiles/listener.dir
 /home/hans/git/shell/ros/cpp_catkin_ws/build/learning_communication/CMakeFiles/talker.dir
 /home/hans/git/shell/ros/cpp_catkin_ws/build/learning_communication/CMakeFiles/learning_communication_gennodejs.dir

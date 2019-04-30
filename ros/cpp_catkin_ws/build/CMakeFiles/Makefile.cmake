@@ -197,6 +197,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "gtest/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "gtest/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "gtest/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "learning_communication/CMakeFiles/client.dir/DependInfo.cmake"
+  "learning_communication/CMakeFiles/server.dir/DependInfo.cmake"
   "learning_communication/CMakeFiles/listener.dir/DependInfo.cmake"
   "learning_communication/CMakeFiles/talker.dir/DependInfo.cmake"
   "learning_communication/CMakeFiles/learning_communication_gennodejs.dir/DependInfo.cmake"

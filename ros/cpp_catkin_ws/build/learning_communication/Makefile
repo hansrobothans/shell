@@ -78,17 +78,6 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -121,6 +110,17 @@ install/local: preinstall
 install/local/fast: install/local
 
 .PHONY : install/local/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
@@ -164,6 +164,36 @@ preinstall/fast:
 depend:
 	cd /home/hans/git/shell/ros/cpp_catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+learning_communication/CMakeFiles/client.dir/rule:
+	cd /home/hans/git/shell/ros/cpp_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning_communication/CMakeFiles/client.dir/rule
+.PHONY : learning_communication/CMakeFiles/client.dir/rule
+
+# Convenience name for target.
+client: learning_communication/CMakeFiles/client.dir/rule
+
+.PHONY : client
+
+# fast build rule for target.
+client/fast:
+	cd /home/hans/git/shell/ros/cpp_catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/client.dir/build.make learning_communication/CMakeFiles/client.dir/build
+.PHONY : client/fast
+
+# Convenience name for target.
+learning_communication/CMakeFiles/server.dir/rule:
+	cd /home/hans/git/shell/ros/cpp_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning_communication/CMakeFiles/server.dir/rule
+.PHONY : learning_communication/CMakeFiles/server.dir/rule
+
+# Convenience name for target.
+server: learning_communication/CMakeFiles/server.dir/rule
+
+.PHONY : server
+
+# fast build rule for target.
+server/fast:
+	cd /home/hans/git/shell/ros/cpp_catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/server.dir/build.make learning_communication/CMakeFiles/server.dir/build
+.PHONY : server/fast
 
 # Convenience name for target.
 learning_communication/CMakeFiles/listener.dir/rule:
@@ -615,6 +645,33 @@ learning_communication_geneus/fast:
 	cd /home/hans/git/shell/ros/cpp_catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/learning_communication_geneus.dir/build.make learning_communication/CMakeFiles/learning_communication_geneus.dir/build
 .PHONY : learning_communication_geneus/fast
 
+src/client.o: src/client.cpp.o
+
+.PHONY : src/client.o
+
+# target to build an object file
+src/client.cpp.o:
+	cd /home/hans/git/shell/ros/cpp_catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/client.dir/build.make learning_communication/CMakeFiles/client.dir/src/client.cpp.o
+.PHONY : src/client.cpp.o
+
+src/client.i: src/client.cpp.i
+
+.PHONY : src/client.i
+
+# target to preprocess a source file
+src/client.cpp.i:
+	cd /home/hans/git/shell/ros/cpp_catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/client.dir/build.make learning_communication/CMakeFiles/client.dir/src/client.cpp.i
+.PHONY : src/client.cpp.i
+
+src/client.s: src/client.cpp.s
+
+.PHONY : src/client.s
+
+# target to generate assembly for a file
+src/client.cpp.s:
+	cd /home/hans/git/shell/ros/cpp_catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/client.dir/build.make learning_communication/CMakeFiles/client.dir/src/client.cpp.s
+.PHONY : src/client.cpp.s
+
 src/listener.o: src/listener.cpp.o
 
 .PHONY : src/listener.o
@@ -641,6 +698,33 @@ src/listener.s: src/listener.cpp.s
 src/listener.cpp.s:
 	cd /home/hans/git/shell/ros/cpp_catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/listener.dir/build.make learning_communication/CMakeFiles/listener.dir/src/listener.cpp.s
 .PHONY : src/listener.cpp.s
+
+src/server.o: src/server.cpp.o
+
+.PHONY : src/server.o
+
+# target to build an object file
+src/server.cpp.o:
+	cd /home/hans/git/shell/ros/cpp_catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/server.dir/build.make learning_communication/CMakeFiles/server.dir/src/server.cpp.o
+.PHONY : src/server.cpp.o
+
+src/server.i: src/server.cpp.i
+
+.PHONY : src/server.i
+
+# target to preprocess a source file
+src/server.cpp.i:
+	cd /home/hans/git/shell/ros/cpp_catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/server.dir/build.make learning_communication/CMakeFiles/server.dir/src/server.cpp.i
+.PHONY : src/server.cpp.i
+
+src/server.s: src/server.cpp.s
+
+.PHONY : src/server.s
+
+# target to generate assembly for a file
+src/server.cpp.s:
+	cd /home/hans/git/shell/ros/cpp_catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/server.dir/build.make learning_communication/CMakeFiles/server.dir/src/server.cpp.s
+.PHONY : src/server.cpp.s
 
 src/talker.o: src/talker.cpp.o
 
@@ -677,10 +761,12 @@ help:
 	@echo "... depend"
 	@echo "... list_install_components"
 	@echo "... install"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... install/local"
+	@echo "... rebuild_cache"
+	@echo "... client"
+	@echo "... server"
 	@echo "... listener"
 	@echo "... talker"
 	@echo "... learning_communication_gennodejs"
@@ -712,9 +798,15 @@ help:
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... learning_communication_generate_messages_cpp"
 	@echo "... learning_communication_geneus"
+	@echo "... src/client.o"
+	@echo "... src/client.i"
+	@echo "... src/client.s"
 	@echo "... src/listener.o"
 	@echo "... src/listener.i"
 	@echo "... src/listener.s"
+	@echo "... src/server.o"
+	@echo "... src/server.i"
+	@echo "... src/server.s"
 	@echo "... src/talker.o"
 	@echo "... src/talker.i"
 	@echo "... src/talker.s"
