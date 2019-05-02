@@ -15,6 +15,6 @@ def do_timer(goal):
     server.set_succeeded(result)
 
 rospy.init_node("time_action_server")
-server = actionlib.SimpleActionServer('time',TimerAction,do_timer,False)
+server = actionlib.SimpleActionServer('timer',TimerAction,do_timer,False)
 server.start()
 rospy.spin()
