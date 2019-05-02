@@ -1,0 +1,8 @@
+prefix=/home/hans/git/shell/ros/cpp_catkin_ws/install
+
+Name: action_pkg
+Description: Description of action_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/hans/git/shell/ros/cpp_catkin_ws/install/lib 
+Requires: 

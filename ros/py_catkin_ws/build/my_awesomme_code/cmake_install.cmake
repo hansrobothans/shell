@@ -41,6 +41,22 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_awesomme_code/action" TYPE FILE FILES "/home/hans/git/shell/ros/py_catkin_ws/src/my_awesomme_code/action/Timer.action")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_awesomme_code/msg" TYPE FILE FILES
+    "/home/hans/git/shell/ros/py_catkin_ws/devel/share/my_awesomme_code/msg/TimerAction.msg"
+    "/home/hans/git/shell/ros/py_catkin_ws/devel/share/my_awesomme_code/msg/TimerActionGoal.msg"
+    "/home/hans/git/shell/ros/py_catkin_ws/devel/share/my_awesomme_code/msg/TimerActionResult.msg"
+    "/home/hans/git/shell/ros/py_catkin_ws/devel/share/my_awesomme_code/msg/TimerActionFeedback.msg"
+    "/home/hans/git/shell/ros/py_catkin_ws/devel/share/my_awesomme_code/msg/TimerGoal.msg"
+    "/home/hans/git/shell/ros/py_catkin_ws/devel/share/my_awesomme_code/msg/TimerResult.msg"
+    "/home/hans/git/shell/ros/py_catkin_ws/devel/share/my_awesomme_code/msg/TimerFeedback.msg"
+    )
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_awesomme_code/cmake" TYPE FILE FILES "/home/hans/git/shell/ros/py_catkin_ws/build/my_awesomme_code/catkin_generated/installspace/my_awesomme_code-msg-paths.cmake")
 endif()
 
