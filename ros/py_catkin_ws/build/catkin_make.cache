@@ -1,2 +1,2 @@
-my_awesomme_code
+my_awesomme_code:usb_cam
 -DCATKIN_DEVEL_PREFIX=/home/hans/git/shell/ros/py_catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hans/git/shell/ros/py_catkin_ws/install -G Unix Makefiles

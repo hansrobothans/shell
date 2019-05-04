@@ -2,4 +2,4 @@
 source_root_dir = "/home/hans/git/shell/ros/py_catkin_ws/src"
 whitelisted_packages = "".split(';') if "" != "" else []
 blacklisted_packages = "".split(';') if "" != "" else []
-underlay_workspaces = "/home/hans/git/shell/ros/py_catkin_ws/devel;/home/hans/git/shell/ros/cpp_catkin_ws/devel;/opt/ros/kinetic".split(';') if "/home/hans/git/shell/ros/py_catkin_ws/devel;/home/hans/git/shell/ros/cpp_catkin_ws/devel;/opt/ros/kinetic" != "" else []
+underlay_workspaces = "/opt/ros/kinetic".split(';') if "/opt/ros/kinetic" != "" else []
